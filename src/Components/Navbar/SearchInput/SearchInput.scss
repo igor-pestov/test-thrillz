@@ -1,0 +1,22 @@
+.search {
+    max-width: 21.8rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    background-color: #F6F8F9;
+    background-image: url('./assets/search.svg');
+    background-position: 0.65rem 0.41rem; 
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    @media (max-width:1110px) {
+        display: none;
+        
+    }
+}
+
+.search:focus {
+    outline: none; /*to remove the focus outline in chrome */
+}

@@ -1,0 +1,50 @@
+.option {
+  margin-top: 2.37rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  .check {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2.3rem;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #609efc;
+    border-radius: 1000%;
+    .active {
+      width: 75%;
+      height: 75%;
+      border-radius: 1000%;
+      background-color: #609efc;
+    }
+  }
+
+  .option__price {
+    margin-right: 1.68rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 116%;
+    color: #505050;
+  }
+  .option__name {
+    .option__name_title {
+      display: flex;
+      flex-direction: column;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 116%;
+      color: #505050;
+    }
+    .option__name_time {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 113%;
+      color: #505050;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.main__wrapper {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 1250px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  @media (max-width: 500px) {
+    margin: 0;
+  }
+}

@@ -1,0 +1,52 @@
+.select {
+  position: relative;
+  margin-top: 2.5rem;
+}
+.select svg {
+  position: absolute;
+  right: 12px;
+  top: calc(50% - 3px);
+  width: 10px;
+  height: 6px;
+  stroke-width: 2px;
+  stroke: #9098a9;
+  fill: none;
+}
+.select select {
+  -webkit-appearance: none;
+  padding: 8px 20px 8px 40px;
+  width: 90%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 113%;
+  color: #c4c4c4;
+  transition: all 150ms ease;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.select select option {
+  color: #223254;
+}
+.select select option[value=""][disabled] {
+  display: none;
+}
+.select select:focus {
+  outline: none;
+}
+
+.sprites {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}

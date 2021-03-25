@@ -1,0 +1,30 @@
+.checkbox {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  color: #505050;
+  margin-top:2.06rem ;
+  @media (max-width: 500px) {
+    line-height: 140%;
+  margin-top:2rem ;
+
+  }
+  i {
+    cursor: pointer;
+    margin-right: 8px;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c4c4c4;
+  }
+  .active {
+    background-color: #609efc;
+    background-image: url('./assets//done.svg');
+    background-position:3px 3px; 
+    background-repeat: no-repeat;
+  }
+}

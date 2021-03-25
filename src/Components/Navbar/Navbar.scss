@@ -1,0 +1,41 @@
+.navbar__wrapper {
+  height: 7.3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  background-color: #fff;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 1110px) {
+      justify-content: center;
+      position: relative;
+    }
+    .container__left {
+      display: flex;
+
+      .navbar__logo {
+        margin-right: 4.6rem;
+        @media (max-width: 500px) {
+          margin-right: 0;
+        }
+      }
+    }
+    .search-mobile {
+      display: none;
+      @media (max-width: 1110px) {
+        width: 35px;
+        display: block;
+        position: absolute;
+        right: 1.56rem;
+      }
+    }
+  }
+}
